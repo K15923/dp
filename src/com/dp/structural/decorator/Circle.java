@@ -6,6 +6,6 @@ package com.dp.structural.decorator;
 public class Circle implements Shape{
     @Override
     public void draw() {
-        System.out.println("Circle : draw");
+        System.out.println("Circle : draw, 我是最初的类，我需要增强");
     }
 }

@@ -15,10 +15,10 @@ public class DecoratorPatternDemo {
         System.out.println("Circle with normal border");
         circle.draw();
 
-        System.out.println("\nCircle of red border");
+        System.out.println("\nCircle of red border------------");
         redCircle.draw();
 
-        System.out.println("\nRectangle of red border");
+        System.out.println("\nRectangle of red border111111111");
         redRectangle.draw();
     }
 
