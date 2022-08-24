@@ -6,6 +6,8 @@ package com.dp.structural.adapter.entrust;
 public class Main {
 
     public static void main(String[] args) {
-
+        Print lll = new PrintBanner("lll");
+        lll.printStrong();
+        lll.printWeak();
     }
 }
