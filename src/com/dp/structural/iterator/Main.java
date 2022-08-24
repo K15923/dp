@@ -6,7 +6,7 @@ package com.dp.structural.iterator;
  */
 public class Main {
     public static void main(String[] args) {
-        BookShelf bookShelf = new BookShelf(4);
+        BookShelf bookShelf = new BookShelf(1);
         bookShelf.appendBook(new Book("a"));
         bookShelf.appendBook(new Book("b"));
         bookShelf.appendBook(new Book("c"));

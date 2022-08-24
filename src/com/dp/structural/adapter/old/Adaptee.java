@@ -1,4 +1,4 @@
-package com.dp.structural.adapter;
+package com.dp.structural.adapter.old;
 
 public class Adaptee {
 
