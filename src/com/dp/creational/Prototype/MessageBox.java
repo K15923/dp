@@ -1,5 +1,6 @@
 package com.dp.creational.Prototype;
 
+import com.dp.creational.Prototype.framework.AbstractProduct;
 import com.dp.creational.Prototype.framework.Product;
 
 import java.nio.charset.StandardCharsets;
@@ -7,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * @author k 2022/8/25 22:42
  */
-public class MessageBox implements Product {
+public class MessageBox extends AbstractProduct implements Product {
 
     private char decochar;
 
@@ -33,14 +34,5 @@ public class MessageBox implements Product {
 
     }
 
-    @Override
-    public Product createClone() {
-        Product p = null;
-        try {
-            p = (Product) clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return p;
-    }
+
 }
