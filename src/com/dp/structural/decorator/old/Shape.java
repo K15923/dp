@@ -1,4 +1,4 @@
-package com.dp.structural.decorator;
+package com.dp.structural.decorator.old;
 
 /**
  * @author k 2022/8/17 11:25

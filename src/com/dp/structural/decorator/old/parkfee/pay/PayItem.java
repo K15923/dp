@@ -1,4 +1,4 @@
-package com.dp.structural.decorator.parkfee.pay;
+package com.dp.structural.decorator.old.parkfee.pay;
 
 import java.math.BigDecimal;
 

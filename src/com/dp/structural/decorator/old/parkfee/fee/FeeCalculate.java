@@ -1,6 +1,6 @@
-package com.dp.structural.decorator.parkfee.fee;
+package com.dp.structural.decorator.old.parkfee.fee;
 
-import com.dp.structural.decorator.parkfee.pay.PayItem;
+import com.dp.structural.decorator.old.parkfee.pay.PayItem;
 
 import java.util.List;
 import java.util.Map;
