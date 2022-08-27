@@ -1,7 +1,7 @@
 package com.dp.behavioral.strategy;
 
 /**
- * 手势
+ * 手势 游戏规则
  *
  * @author k 2022/8/27 0:31
  */
@@ -21,8 +21,8 @@ public class Hand {
         this.handvalue = handvalue;
     }
 
-    public int getHandvalue() {
-        return handvalue;
+    public static Hand getHand(int handvalue) {
+        return hand[handvalue];
     }
 
     public void setHandvalue(int handvalue) {
@@ -35,7 +35,7 @@ public class Hand {
     }
 
     public boolean isWeakerThan(Hand h) {
-        return fight(h) == 1;
+        return fight(h) == -1;
     }
 
     private int fight(Hand h) {
