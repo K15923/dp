@@ -21,10 +21,12 @@ public enum PayType implements BaseEnum<PayType> {
         this.name = name;
     }
 
+    @Override
     public Integer getCode() {
         return this.code;
     }
 
+    @Override
     public String getName() {
         return this.name;
     }
