@@ -1,4 +1,4 @@
-package com.dp.structural.iterator;
+package com.dp.behavioral.iterator;
 
 import java.util.ArrayList;
 import java.util.List;

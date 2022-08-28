@@ -1,4 +1,4 @@
-package com.dp.structural.iterator;
+package com.dp.behavioral.iterator;
 
 /**
  * 表示集合的接口
